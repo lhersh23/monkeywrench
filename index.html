@@ -1,0 +1,272 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, width=device-width" />
+
+<title>Monkey Wrench</title>
+
+<link href="styles.css" rel="stylesheet" type="text/css"/>
+
+<link rel="shortcut icon" sizes="144x144" href="mwicon.png">
+
+</head>
+<body>
+
+<div id="container">
+
+	<!-- <div id="response">
+		<p class="mobile">0 to 320 (400) Mobile</p>
+		<p class="mobileLand">320 to 480 Mobile</p>
+		<p class="tablet">480 to 768 Tablet</p>
+		<p class="tabletLand">768 to 1024 Tablet</p>
+		<p class="laptop">1024 to 1280 Laptop</p>
+		<p class="desktop">1280 &amp; up Desktop</p>
+	</div> -->
+
+
+
+	<nav class="absolute">
+		<!--<img src="images/mwlogotype.png" class="navWideLogo" />
+		<img src="images/mwlogoicon.png" class="navSmallLogo" />-->
+
+		<div class="smallNav">
+
+			<ul id="nav" class="main">
+				<li class="start"><span>Navigation</span>
+				<!-- span classes = hack / visibility = better (visibility: none/hidden/visible) / pseudo elements aren't supported by everything fuckers. -->
+					<ul id="sub">
+						<li class="first"><a href="#home" class="anchorLink">Home</a></li>
+						<li><a href="#classes" class="anchorLink">Classes</a></li>
+						<li><a href="#autoparts" class="anchorLink">Autoparts</a></li>
+						<li><a href="#about" class="anchorLink">About</a></li>
+						<li class="bottom"><a href="#contact" class="anchorLink">Contact</a></li>
+					</ul>
+				</li>
+			</ul>
+
+		</div>
+
+	</nav>
+
+
+	<div id="home">
+		<div class="homeLogo">
+			<img src="images/mwlogotype.png" />
+		</div>
+
+		<div class="homeLogoSmall">
+			<img src="images/mwlogoicon.png" />
+		</div>
+
+		<div class="homeHours">
+			<p class="cremeText">Store hours<br />mon thru fri 9am to 10pm<br />Sat and sun 9am to 11pm</p>
+		</div>
+		<div id="overlap" class="cremeText">
+			<p>Cars are hard,</p> <p>We know.</p>
+			<p>But we’re here to help you through the little stuff</p>
+		</div>
+	</div>
+
+
+
+<!--******************** TAKE A CLASS ******************-->
+
+	<div class="brown big" id="classes">
+		<div class="content cremeText">
+			<h2 class="yellowBord">Take A Class</h2>
+			<p class="one">It’s hard to learn about car repairs from reading instructions. So we’ve created a more hands-on, visual approach. We offer classes at a minimal fee held in our attached garage facility. Don’t have time to come in and participate? Not a big deal because we also offer video courses online for the same fee.</p>
+			<p class="one">Each class is led by one of our trained and reliable staff members. Every class has a specific agenda and task which the instructors will take everyone through with detailed instructions and demonstrations. Classes vary from beginner levels to more advanced levels and each fits into a particular category. Below are our current classes we offer with information for each. If you have any questions or would like to suggest a class we don’t offer, feel free to <a href="#contact" class="anchorLink">contact us</a> using the form at the bottom.</p>
+
+			<div class="classBox classBox-two classBits">
+				<h6 class="yellowText"><a href="#">Ignition</a></h6>
+				<p class="classSub">The Beginner's Course</p>
+				<p class="classDescrip">This is the most basic beginners course. After taking it, you will know some basic automotive terminology, common maintenance, and general upkeep information.</p>
+				<div class="diff">
+					<p>Difficulty:</p> <img src="images/difflvl_half.svg" class="diffLvl" />
+				</div>
+			</div>
+
+			<div class="classBox classTools">
+				<h6 class="yellowText"><a href="#">Tools of the Trade</a></h6>
+				<p class="classDescrip">Learn about the multitude of tools mechanics use and the most common kinds. Participants will learn about and use tools like car jacks, wrenches, air compressors, and more.</p>
+				<div class="diff">
+					<p>Difficulty:</p> <img src="images/difflvl.svg" class="diffLvl" />
+				</div>			
+			</div>
+
+			<div class="classBox classBox-two classFluids">
+				<h6 class="yellowText"><a href="#">Fluid Types</a></h6>
+				<p class="classDescrip">Cars use a handful of different fluids and lubricants. This class will showcase all the kinds of fluids cars use starting with the most important ones. Participants will also be shown how to fill each kind in a demonstration car.</p>
+				<div class="diff">
+					<p>Difficulty:</p> <img src="images/difflvl.svg" class="diffLvl" />
+				</div>	
+			</div>
+
+			<div class="classBox classParts">
+				<h6 class="yellowText"><a href="#">Tire Change</a></h6>
+				<p class="classDescrip">Without tires cars would be useless. Learn the steps involved in changing a tire, from using a jack safely to reattaching the lug nuts. Each participants will have the opportunity to change at least one tire.</p>
+				<div class="diff">
+					<p>Difficulty:</p> <img src="images/difflvl.svg" class="diffLvl" />
+				</div>	
+			</div>
+
+			<div class="classBox classBox-two classFluids">
+				<h6 class="yellowText"><a href="#">Oil Change</a></h6>
+				<p class="classDescrip">Everyone should know how to change their car’s oil. This class will go over how and when to change your oil and the different grades and weights you can use in your car. This is a messy class, you’ve been warned.</p>
+				<div class="diff">
+					<p>Difficulty:</p> <img src="images/difflvl.svg" class="diffLvl" />
+				</div>	
+			</div>
+
+			<div class="classBox classParts">
+				<h6 class="yellowText"><a href="#">Accessory Belts</a></h6>
+				<p class="classDescrip">Learn to check and replace accessory belts in a car. Belts that will be demonstrated and shown include the alternator belt, the power steering pump belt, and more.</p>
+				<div class="diff">
+					<p>Difficulty:</p> <img src="images/difflvl2.svg" class="diffLvl" />
+				</div>	
+			</div>
+
+		</div>
+	</div>
+
+	<div class="divide divOne">
+	</div>
+
+
+<!--******************** OUR AUTOPARTS ******************-->
+
+	<div class="creme big" id="autoparts">
+		<div class="content">
+			<h2 class="dkBrownText yellowBord">Our Autoparts</h2>
+			<p class="one dkBrownText">With so many parts and tools, Monkey Wrench makes it easy for you. We’ve created and produced some of the best car products out there. And we’ve categorized them into four separate, easy groups.</p>
+
+			<div class="partsOne">
+				<div class="four oneMobile">
+					<img src="images/tools.png" />
+					<h3>Tools</h3>
+					<p>Wrench? Check. Screwdriver? Check. 3/8 inch rachet with a flex head? Wait, what? Our tools department has got you covered on learning the difference between metric and standard and everything in between.</p>
+				</div>
+
+				<div class="four oneMobile">
+					<img src="images/fluids.png" />
+					<h3>Fluids</h3>
+					<p>Did you know that cars take multiple kinds of fluids, not just oil? It’s what helps them run smoothly and for longer lives. From coolant to  windshield wiper fluid to transmission fluid, we’ve got you covered.</p>
+				</div>
+			</div>
+
+			<div class="partsTwo">
+				<div class="four">
+					<img src="images/parts.png" />
+					<h3>Parts</h3>
+					<p>You better hope you’re putting the right parts in the right places. Our parts department is here to help you with any and all your part confusion and needs, offering you the best of the best automotive parts.</p>
+				</div>
+
+				<div class="four">
+					<img src="images/bits.png" />
+					<h3>Bits</h3>
+					<p>Little things can have big impacts on the life of your car and that’s why they can be the most important some times. From clean up to the nuts and bolts, we have everything on the small scale you’ll need.</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="divide divTwo">
+	</div>
+
+
+<!--******************** ABOUT ******************-->
+
+	<div class="brown big" id="about">
+		<div class="content cremeText">
+			<h2 class="yellowBord">What's Monkey Wrench</h2>
+			<p class="one">Have you ever been to a garage mechanic and felt like they were speaking a completely different language? Or how about visiting an auto parts store and seeing an overwhelming wall of 30 different kinds of motor oil? We get it. Not everyone can be auto-mechanically inclined. That’s where Monkey Wrench comes in.</p>
+
+			<p class="two twoLeft">Monkey Wrench is your Ma-And-Pa corner general store of the auto industry. We’re here to help and teach you. We’re not going to throw you a whole lot of auto lingo and expect you to keep up. But we aren’t going to do it for you. It’s our mission to educate every day people about the minor car problems that happen to everyone. Obviously some things you will have to go to a garage to take care of, but everday things like <a href="#autoparts" class="anchorLink">changing your oil,</a> changing your engine belt, or replacing a burnt <a href="#autoparts" class="anchorLink">headlight bulb</a> are all easy to do on your own. You just need the right tools.</p>
+			<blockquote class="two twoRight">Americans spend on average $5,400 a year on car repairs and maintenance. we can help you bring that down.</blockquote>
+		</div>
+	</div>
+
+	<div class="divide divThree">
+	</div>
+
+
+<!--******************** COME CHAT ******************-->
+
+	<div class="yellow big" id="contact">
+		<div class="content ltBrownText">
+			<h2 class="cremeBord">Come Chat</h2>
+
+			<div class="two twoRight">
+				<p class="contactHours">Store hours<br />mon thru fri 9am to 10pm<br />Sat and sun 9am to 11pm</p>
+
+				<h5>Come visit us</h5><p class="info"><a href="https://maps.google.com/maps?q=emmaus,+pa&ie=UTF-8&hl=en" target="_blank">123 Avenue Lane<br />emmaus, pa 18049</a></p>
+
+				<h5>Give Us A Ring</h5><p class="info"><a href="tel:555-555-5555">610.112.3345</a></p>
+
+				<h5>Shoot Us a Message</h5><p class="info"><a href="mailto:#">Vroom@monkey<br />wrench.com</a></p>
+			</div>
+
+
+			<div class="two twoLeft">
+				<form name="contact">
+					<fieldset>
+						<input value="Name" name="name" type="text" class="textInput ltBrownText" /><br />
+						<input value="Email" name="email" type="text" class="textInput ltBrownText" /><br />
+						<textarea class="ltBrownText"></textarea><br />
+						<input value="Submit" name="submit" type="submit" class="submit brown yellowText" />
+					</fieldset>
+				</form>
+			</div>
+
+
+		</div>
+	</div>
+
+
+	<footer class="yellow">
+		<p>Monkey Wrench Autoparts &copy; 2013.</p>
+		<p><a href="#home" class="anchorLink">Return to Top</a> | <a href="#classes" class="anchorLink">Classes</a> | <a href="#autoparts" class="anchorLink">Autoparts</a> | <a href="#about" class="anchorLink">About</a> | <a href="#contact" class="anchorLink">Contact</a></p>
+	</footer>
+
+
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="js/jquery.anchor.js" type="text/javascript"></script>
+<script src="jquery.sticky.js"></script>
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        var theLoc = $('nav').position().top;
+        $(window).scroll(function() {
+            if(theLoc >= $(window).scrollTop()) {
+                if($('nav').hasClass('fixed')) {
+                    $('nav').removeClass('fixed');
+                }
+            } else { 
+                if(!$('nav').hasClass('fixed')) {
+                    $('nav').addClass('fixed');
+                }
+            }
+        });
+    });
+</script>
+
+<script>
+	$(document).ready(function() {
+		$('.start').click(function() {
+			$('#nav li ul').toggle(function() {
+				$(this).css("visibility", "visible")
+			});
+		});
+
+	});
+</script>
+
+
+</body>
+</html>
